@@ -4,7 +4,7 @@
     "cheerio": "^1.0.0-rc.12",
     "readline": "^1.3.0"
   },
-  "name": "simple-fb-down",
+  "name": "simple-fb-video",
   "version": "1.0.0",
   "description": "Download video fesbuk lewat kont- konsol",
   "main": "index.js",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/arzxh/simple-fb-down.git"
+    "url": "git+https://github.com/arzxh/simple-fb-video.git"
   },
   "keywords": [
     "fb"
@@ -22,7 +22,7 @@
   "author": "Sandy Cinta Gura",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/arzxh/simple-fb-down/issues"
+    "url": "https://github.com/arzxh/simple-fb-video/issues"
   },
-  "homepage": "https://github.com/arzxh/simple-fb-down#readme"
+  "homepage": "https://github.com/arzxh/simple-fb-video#readme"
 }
