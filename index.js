@@ -10,7 +10,7 @@ var rl = readline.createInterface({
 rl.question('Masukkan url video Facebook: ', async (url) => {
     try {
         if (!/(www|m).facebook/.test(url)) {
-            return console.table({
+            console.table({
                 author: "Sandy Sayang Gura",
                 status: 406,
                 message: "Invalid URL"
