@@ -1,7 +1,7 @@
 # simple-fb-down
 Download video fesbuk lewat kont- konsol
 
-# install 
+# clone
 ```
 git clone https://github.com/arzxh/simple-fb-down.git && npm i
 ```
