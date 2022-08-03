@@ -3,5 +3,26 @@
     "axios": "^0.27.2",
     "cheerio": "^1.0.0-rc.12",
     "readline": "^1.3.0"
-  }
+  },
+  "name": "simple-fb-down",
+  "version": "1.0.0",
+  "description": "Download video fesbuk lewat kont- konsol",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arzxh/simple-fb-down.git"
+  },
+  "keywords": [
+    "fb"
+  ],
+  "author": "Sandy Cinta Gura",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arzxh/simple-fb-down/issues"
+  },
+  "homepage": "https://github.com/arzxh/simple-fb-down#readme"
 }
