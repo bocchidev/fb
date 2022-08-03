@@ -1,3 +1,8 @@
+/*
+* I LOVE GURA
+* I LOVE GURA
+*/
+
 var axios = require('axios');
 var readline = require('readline');
 var cheerio = require('cheerio');
@@ -35,3 +40,8 @@ rl.question('Masukkan url video Facebook: ', async (url) => {
     };
     rl.close();
 });
+
+/*
+* I LOVE GAWR
+* I LOVE GURA
+*/
