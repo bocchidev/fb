@@ -9,14 +9,6 @@ var rl = readline.createInterface({
 
 rl.question('Masukkan url video Facebook: ', async (url) => {
     try {
-        if (!/(www|m).facebook/.test(url)) {
-            console.table({
-                author: "Sandy Sayang Gura",
-                status: 406,
-                message: "Invalid URL"
-            });
-            rl.close();
-        };
         var mbasic = url.replace("www.facebook", "mbasic.facebook") || url.replace("m.facebook", "mbasic.facebook");
         var html = await axios({
             method: "get",
@@ -34,13 +26,12 @@ rl.question('Masukkan url video Facebook: ', async (url) => {
             image: image,
             video: decodeURIComponent(video)
         });
-        rl.close();
     } catch (e) {
         console.table({
             author: "Sandy Sayang Gura",
-            status: 404,
-            message: "Video not found!"
+            status: !/(www|m).facebook/.test(url) ? 406 : 404,
+            message: !/(www|m).facebook/.test(url) ? "Invalid URL!" : "Video not found!"
         });
-        rl.close();
     };
+    rl.close();
 });
