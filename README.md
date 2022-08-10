@@ -3,7 +3,7 @@ Download video fesbuk lewat kont- konsol
 
 # clone
 ```
-git clone https://github.com/arzxh/simple-fb-down.git && npm i
+git clone https://github.com/arzxh/simple-fb-video.git && npm i
 ```
 
 # sample response
