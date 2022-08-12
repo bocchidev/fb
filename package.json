@@ -1,28 +1,31 @@
 {
+  "name": "simple-fb-video",
+  "version": "0.0.2",
+  "description": "Download your fav Facebook video",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+      "facebook-video-downloader",
+      "facebook-video",
+      "facebook"
+      ],
+  "author": "Sandy Pratama",
+  "license": "ISC",
   "dependencies": {
     "axios": "^0.27.2",
     "cheerio": "^1.0.0-rc.12",
-    "readline": "^1.3.0"
-  },
-  "name": "simple-fb-video",
-  "version": "1.0.0",
-  "description": "Download video fesbuk lewat kont- konsol",
-  "main": "index.js",
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "ejs": "^3.1.7",
+    "express": "^4.18.1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/arzxh/simple-fb-video.git"
   },
-  "keywords": [
-    "fb"
-  ],
-  "author": "Sandy Cinta Gura",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/arzxh/simple-fb-video/issues"
   },
-  "homepage": "https://github.com/arzxh/simple-fb-video#readme"
+  "homepage": "https://github.com/arzxh/simple-fb-video#readme",
+  "devDependencies": {}
 }
