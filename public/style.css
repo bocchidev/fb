@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body {
+    height: 100%;
+    background-image: linear-gradient(to bottom right, #faf5ff, #4146ff);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+}
+
+.header {
+    display: block;
+    margin-top: 10%;
+}
+
+.header div {
+    margin-top: 6%;
+}
+
+.image img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid;
+}
+
+.content {
+    display: block;;
+}
+
+.content .a {
+    margin-top: 4%;
+}
+
+.content .b {
+    margin-bottom: 4%;
+}
+
+.content a, a:link, a:active {
+    border-style: solid;
+    border-width: thin;
+    border-color: #fff;
+    border-radius: 0;
+    box-shadow: 3px 4px black;
+    padding: 11px;
+    text-decoration: none;
+}
+
+a:hover, a:visited, a:focus {
+    box-shadow: 1px 2px black;
+    border: thin solid #fff;
+    text-decoration: none;
+    transform: translate(2px, 2px);
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+form {
+    width: 100%;
+    height: 40px;
+    border-radius: 0;
+    border: thin #fff solid;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2px;
+    box-shadow: 1px 2px #000;
+}
+
+svg {
+    color: #fff;
+    fill: currentColor;
+    width: 42px;
+    height: 42px;
+    padding: 10px;
+}
+
+form button {
+    all: unset;
+    cursor: pointer;
+    width: 44px;
+    height: 44px;
+}
+
+input[type=url] {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #989898;
+    height: 100%;
+    width: 100%;
+    padding: 10px 10px;
+    border: thin #fff solid;
+    border-radius: 0;
+}
+
+input[type=url]:focus {
+    background-color: rgba(243, 189, 255, 0.5);
+    border: thin #fff solid;
+    border-radius: 0;
+    color: #000;
+    
+}
+
+.content2 {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    align-content: center;
+    display: block;
+    padding: 10px;
+}
+
+.content2 .vid {
+    border: medium #fff ridge;
+    box-shadow: 2px 3px #000;
+}
+
+.content2 a {
+    margin-top: 15px;
+}
