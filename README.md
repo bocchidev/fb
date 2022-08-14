@@ -1,5 +1,5 @@
 # Facebook video downloader
-Download video fesbuk lewat <code>http://localhost:5000</code>
+Download your favorite videos in <code>http://localhost:5000</code>
 
 # clone
 ```
