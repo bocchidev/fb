@@ -1,5 +1,5 @@
 {
-  "name": "simple-fb-video",
+  "name": "fb",
   "version": "0.0.2",
   "description": "Download your fav Facebook video",
   "main": "index.js",
@@ -21,11 +21,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/arzxh/simple-fb-video.git"
+    "url": "git+https://github.com/arzxh/fb.git"
   },
   "bugs": {
-    "url": "https://github.com/arzxh/simple-fb-video/issues"
+    "url": "https://github.com/arzxh/fb/issues"
   },
-  "homepage": "https://github.com/arzxh/simple-fb-video#readme",
+  "homepage": "https://github.com/arzxh/fb#readme",
   "devDependencies": {}
 }
