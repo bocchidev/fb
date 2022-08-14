@@ -1,22 +1,23 @@
 {
   "name": "fb",
-  "version": "0.0.2",
+  "version": "0.0.2-a.0",
   "description": "Download your fav Facebook video",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "keywords": [
-      "facebook-video-downloader",
-      "facebook-video",
-      "facebook"
-      ],
+    "facebook-video-downloader",
+    "facebook-video",
+    "facebook"
+  ],
   "author": "Sandy Pratama",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.27.2",
+    "body-parser": "^1.20.0",
     "cheerio": "^1.0.0-rc.12",
-    "ejs": "^3.1.7",
+    "ejs": "^3.1.8",
     "express": "^4.18.1"
   },
   "repository": {
@@ -26,6 +27,5 @@
   "bugs": {
     "url": "https://github.com/arzxh/fb/issues"
   },
-  "homepage": "https://github.com/arzxh/fb#readme",
-  "devDependencies": {}
+  "homepage": "https://github.com/arzxh/fb#readme"
 }
