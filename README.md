@@ -1,5 +1,5 @@
 # Facebook video downloader
-Download your favorite videos in <code>http://localhost:5000</code>
+Download your favorite videos in <code>localhost</code>
 
 # clone
 ```
