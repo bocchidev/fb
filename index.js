@@ -14,7 +14,7 @@ const cheerio = require("cheerio");
 const bodyParser = require("body-parser");
 const main = require("./router/main.js");
 const facebook = require("./router/facebook.js");
-const PORT = process.env.PORT || 2006;
+const PORT = process.env.PORT || 80;
 const app = express();
 
 app.set('view engine', 'ejs');
