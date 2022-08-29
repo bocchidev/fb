@@ -1,24 +1,26 @@
 {
-  "name": "fb",
-  "version": "0.0.2-a.0",
-  "description": "Download your fav Facebook video",
+  "name": "gura",
+  "version": "0.0.0-a.1",
+  "description": "Inilah aku",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
-  "keywords": [
-    "facebook-video-downloader",
-    "facebook-video",
-    "facebook"
-  ],
+  "keywords": [],
   "author": "Sandy Pratama",
-  "license": "ISC",
+  "license": "Apache-2.0",
   "dependencies": {
     "axios": "^0.27.2",
     "body-parser": "^1.20.0",
     "cheerio": "^1.0.0-rc.12",
     "ejs": "^3.1.8",
-    "express": "^4.18.1"
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "path": "^0.12.7",
+    "yt-search": "^2.10.3"
+  },
+  "engines": {
+    "node": "17.9.0"
   },
   "repository": {
     "type": "git",
@@ -27,5 +29,6 @@
   "bugs": {
     "url": "https://github.com/arzxh/fb/issues"
   },
-  "homepage": "https://github.com/arzxh/fb#readme"
+  "homepage": "https://github.com/arzxh/fb#readme",
+  "devDependencies": {}
 }
