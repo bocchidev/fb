@@ -1,7 +1,7 @@
 {
-  "name": "gura",
-  "version": "0.0.0-a.1",
-  "description": "Inilah aku",
+  "name": "fb",
+  "version": "0.0.0-a.4",
+  "description": "Download all your favorite Facebook videos",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
