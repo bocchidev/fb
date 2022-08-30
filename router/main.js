@@ -23,7 +23,7 @@ router.get("/", (req, res) => {
     };
 });
 
-router.post("/input", async (req, res) => {
+router.post("/facebook", async (req, res) => {
     var url = req.body.url;
     if (!url) return res.redirect("/");
     try {
