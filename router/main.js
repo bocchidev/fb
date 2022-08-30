@@ -30,7 +30,7 @@ router.post("/facebook", async (req, res) => {
         var fb = new facebook(url);
         var mek = await fb.getInfo();
         
-        res.render("facebook", {
+        res.render("fb", {
             title: mek.videoTitle
             , video_url: mek.videoUrl
             , size: mek.videoSize
